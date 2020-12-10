@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22979afd14cafc9aad73",
+    "revision": "f8e01fa0031a5f61878f",
     "url": "css/app.9eaa6aa6.css"
   },
   {
@@ -320,7 +320,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/體育網頁板.png"
   },
   {
-    "revision": "abbc240a4b11fa395b36d06210ed4bae",
+    "revision": "3af31bb09473cda84d6ae37aecae069c",
     "url": "index.html"
   },
   {
@@ -328,8 +328,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/about.d721e029.js"
   },
   {
-    "revision": "22979afd14cafc9aad73",
-    "url": "js/app.d02bb60f.js"
+    "revision": "f8e01fa0031a5f61878f",
+    "url": "js/app.ca7c4f8d.js"
   },
   {
     "revision": "80939105232a0c5b4cb7",
