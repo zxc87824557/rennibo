@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+}
+:root{
+  --blue: #1c66c4;
+}
+
+// navbar----------------------------------------------------------------------------------
+#app {
+  .bgnav{
+    height: 50px;
+    background: #1eadeb;
+  }
+  form{
+    width: 590px;
+  }
+  .input-style{
+    width: 150px;
+    background: rgb(85, 85, 85);
+    color: #fff;
+  }
+  .button-login{
+    background: #f3b838;
+    width: 70px;
+    color: #fff;
+    height: 30px;
+    font-size: 14px;
+  }
+  .button-reg{
+    background: #c32730;
+    width: 70px;
+    color: #fff;
+    height: 30px;
+    font-size: 14px;
+  }
+  .size1{
+    font-size: 0.8rem;
+  }
+  #sidebar-1{
+    background: linear-gradient(180deg, #2278E0 0%, #1754A7 100%) !important;
+    .pText{
+      color: #fff;
+      font-size: 20px;
+    }
+    .text{
+      color: #fff;
+      font-size: 13px;
+    }
+    .pos{
+      float: left;
+      margin-left: 60px;
+      .img1{
+        width: 30px;
+        margin-right: 10px;
+      }
+      .text1{
+        color: #fff;
+        font-size: 18px;
+        padding: 0;
+        font-weight: 900;
+      }
+    }
+    .size{
+      font-size: 50px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    .line{
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(180deg, #fffa6b 0%, #f3b838 100%);
+    }
+    .line1{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      height: 1px;
+      background: rgb(22, 41, 75);
+      opacity: 0.6;
+    }
+  }
+  .pic0{
+    padding-left: 100px;
+  }
+  .text0{
+    padding-left: 100px;
+  }
+  .bg-blue {
+    background: linear-gradient(180deg, #2278E0 0%, #1754A7 100%);
+  }
+  .bg-blue2{
+    background: #1eadeb;
+  }
+  @media (max-width: 1024px) {
+    .navflex {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      .logo{
+        position: absolute;
+        top: 0;
+        height: 50px;
+      }
+    }
+    .phone{
+      position: absolute;
+      top: 7%;
+      right:2.5%;
+      height: 50px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .phone{
+      display: none;
+    }
+  }
+  .gocomputer{
+    background-color: #c6e1fd;
+    .mb-6{
+      margin-bottom: 100px;
+    }
+  }
+  @media (min-width:1024px){
+    .gocomputer{
+      display: none;
+    }
+  }
+  #footer{
+    .phonefooter{
+      .footericon :hover{
+        transform: scale(1.1);
+        transition: .3s;
+      }
+    }
+    @media (min-width: 1024px) {
+      .phonefooter{
+        display: none;
+      }
+    }
+  }
+  #footer1{
+    background-color: #bdd5ef;
+    position: relative;
+    .computerfooter{
+      .pic{
+        width: 65%;
+      }
+    }
+    @media (max-width: 1024px) {
+      .computerfooter{
+        display: none;
+      }
+    }
+  }
+  .go_top_page {
+    cursor: pointer;
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    z-index: 9999;
+    box-shadow: inset 0 0 0 2px #aaa, inset 0 0 0 4px #bbb;
+  }
+}
+// home--------------------------------------------------------------
+#home{
+  background-color: #bdd5ef;
+  .announcement{
+    display: flex;
+    .color{
+      background: linear-gradient(180deg, #2278E0 0%, #1754A7 100%) !important;
+      width: 10rem;
+      height: 100%;
+    }
+    #dropdown{
+      z-index: 999;
+      position: relative;
+      .title{
+        color: #fff;
+        line-height: 40px;
+        span{
+          font-size: 20px;
+        }
+        .size{
+          font-size: 18px;
+          margin-right: 5px;
+          margin-left: 8px;
+        }
+      }
+      .content{
+        position: absolute;
+        .dropItem{
+          background: #1c66c4 !important;
+          width: 10rem;
+          color: #fff;
+        }
+      }
+      
+    }
+  }
+  .bg{
+    background: #1754A7;
+  }
+  .game{
+    .pic{
+      cursor: pointer;
+      width: 100%;
+    }
+    .col-6{
+      padding: 0;
+    }
+    .pic1{
+      cursor: pointer;
+      width: 100%;
+    }
+    .pic2{
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+  @media (max-width:1024px){
+    .pic2{
+      display: none;
+    }
+  }
+  @media (min-width:1024px){
+    .pic{
+      display: none;
+    }
+    .pic1{
+      display: none;
+    }
+  }
+  .event-roulette {
+    cursor: pointer;
+    width: 80px;
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    top: 355px;
+    float: right;
+  }
+  @media (max-width:1024px){
+    .event-roulette{
+      display: none;
+    }
+  }
+}
+// 加入app之後------------------------------------------------------------
+#home{
+  .add{
+    margin-top: 20px;
+    .addpic{
+      width: 100%;
+    }
+  }
+  @media (min-width:1024px){
+    .addpic{
+      display: none;
+    }
+  }
+  .why{
+    margin-top: 20px;
+    .whypic{
+      width: 100%;
+    }
+    .whypic2{
+      width: 100%;
+    }
+    @media (max-width:1024px){
+      .whypic2{
+        display: none;
+      }
+    }
+    @media (min-width:1024px){
+      .whypic{
+        display: none;
+      }
+    }
+  }
+  .save{
+    .savestyle{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .savecolor{
+      color: #005ea6;
+    }
+    @media (max-width:1024px){
+      .savemr{
+        margin-top: 5px;
+      }
+    }
+    @media (min-width:1024px){
+      .savemr{
+        margin-top: 40px;
+      }
+    }
+  }
+  .bgsky{
+    background: #dce9ff;
+  }
+  .gamecity{
+    margin-top: 20px;
+    .gamecitypic{
+      width: 100%;
+    }
+    .gamecitypic2{
+      width: 100%;
+    }
+    @media (max-width:1024px){
+      .gamecitypic2{
+        display: none;
+      }
+    }
+    @media (min-width:1024px){
+      .gamecitypic{
+        display: none;
+      }
+    }
+  }
+  .gamecitylist{
+    .box{
+      background: #2278E0;
+      color: #fff62c;
+      position: relative;
+      .text{
+        color: #fff !important;
+      }
+      .smalltext{
+        color: rgb(192, 192, 192);
+        font-size: 13px;
+        float: left;
+      }
+      .smalltext1{
+        color: rgb(192, 192, 192);
+        font-size: 13px;
+        float: right;
+      }
+    }
+  }
+  .gocomputer{
+    .mb-6{
+      margin-bottom: 100px;
+    }
+  }
+  @media (min-width:1024px){
+    .gocomputer{
+      display: none;
+    }
+  }
+}
+// live------------------------------------------------
+#live{
+  background-color: #bdd5ef;
+}
