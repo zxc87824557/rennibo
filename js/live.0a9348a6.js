@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["live"],{b122:function(t,s,i){t.exports=i.p+"img/百家樂遊戲聽.34123a47.png"},c638:function(t,s,i){"use strict";i.r(s);var n=function(){var t=this,s=t.$createElement,n=t._self._c||s;return n("div",{attrs:{id:"live"}},[n("div",[n("b-row",{staticClass:"mx-0"},[n("b-col",{staticClass:"p-0 mb-4 mt-4"},[n("img",{attrs:{src:i("b122")}})])],1)],1)])},e=[],a=i("2877"),c={},l=Object(a["a"])(c,n,e,!1,null,null,null);s["default"]=l.exports}}]);
+//# sourceMappingURL=live.0a9348a6.js.map
